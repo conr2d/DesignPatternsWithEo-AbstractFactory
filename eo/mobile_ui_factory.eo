@@ -1,0 +1,7 @@
+class Mobile.Ui.Factory (Efl.Object, Ui.Factory) {
+    [[Concrete implementation of Ui.Factory interface for Mobile profile]]
+    data: null; // No fields are required for this class.
+    implements {
+        Ui.Factory.button_add; // Implement button_add method of Ui.Factory interface.
+    }
+}

@@ -1,0 +1,7 @@
+class Mobile.Ui.Button (Efl.Object, Ui.Button) {
+    [[Concrete implementation of Ui.Button for Mobile profile]]
+    data: null;
+    implements {
+        Ui.Button.activate; // Implement click method of Ui.Button interface
+    }
+}

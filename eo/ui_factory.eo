@@ -1,0 +1,12 @@
+interface Ui.Factory {
+    [[Abstract Factory]]
+    methods {
+        button_add {
+            [[Creates new button instance and returns its handler.]]
+            return: Ui.Button;
+            params {
+                @in parent: Efl.Object;
+            }
+        }
+    }
+}

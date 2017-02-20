@@ -1,0 +1,8 @@
+interface Ui.Button {
+    [[Common interface for Button]]
+    methods {
+        activate {
+            [[Activates button]]
+        }
+    }
+}
