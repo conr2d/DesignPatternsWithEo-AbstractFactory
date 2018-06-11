@@ -47,7 +47,7 @@ ui_init(int argc, char **argv)
     }
 
     if (!_ui_factory) {
-        printf("SPANK!! SPANK!! SPANK!! Natughty Programmer, you failed to create Ui.Factory!\n");
+        printf("SPANK!! SPANK!! SPANK!! Naughty Programmer, you failed to create Ui.Factory!\n");
         exit(1);
     }
 }
